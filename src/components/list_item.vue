@@ -1,22 +1,10 @@
 <template>
     <ul class="custom-list">
         <li>
-            <h2>
-                {{ title }}
-            </h2>
-            <div class="list-item-content">
-                <span>Menge: {{ amount }}</span>
-                <slot></slot>
-            </div>
+            <slot></slot>
         </li>
     </ul>
 </template>
-
-<script>
-export default {
-    props: ['title', 'amount']
-}
-</script>
 
 <style>
 
@@ -36,10 +24,5 @@ export default {
     white-space: pre;
 }
 
-.custom-list .list-item-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-grow: 1;
-}
+
 </style>
