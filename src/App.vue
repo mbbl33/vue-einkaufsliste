@@ -6,7 +6,7 @@ import {RouterView, RouterLink} from "vue-router"
 
 <template>
 
-    <h1>Einkaufslisten</h1>
+    <h1>Einkaufslisten-App</h1>
     <div class="links-box router-links">
         <RouterLink active-class="active-link" to="/">Checkliste</RouterLink>
         <RouterLink active-class="active-link" to="/editList">Einkaufsliste bearbeiten</RouterLink>
